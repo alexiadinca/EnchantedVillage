@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d120858dbcdc24d8d17afb0d9b6d8f, type: 3}
+  m_Name: MapleData
+  m_EditorClassIdentifier: 
+  npcName: Maple
+  personality: Kind and Nostalgic
+  skillToTeach: Farming
+  forgottenMemory: 'Used to be best friends with Luna the Spellcaster.
+
+'
+  forgottenRelationships:
+  - {fileID: 11400000, guid: c0259c57eb919be499e0f8bfcc2c930e, type: 2}
+  likes:
+  - Herbs
+  - Rainy days
+  - Warm soup
+  dislikes:
+  - Littering
+  - Dry soi
+  hobbies:
+  - Gardening
+  - Storytelling
+  - Listening to music
+  questIntro: "The Land\u2019s Forgotten Song"
+  questSteps:
+  - "Discover orchard trees aren\u2019t growing."
+  - Gather musical memory notes.
+  - Play the song on a magical harp.
+  rewardDescription: Unlocks seasonal growth or new crops.

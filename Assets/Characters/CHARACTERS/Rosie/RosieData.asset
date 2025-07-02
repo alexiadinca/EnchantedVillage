@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d120858dbcdc24d8d17afb0d9b6d8f, type: 3}
+  m_Name: RosieData
+  m_EditorClassIdentifier: 
+  npcName: Rosie
+  personality: Sweet, talkative, nostalgic
+  skillToTeach: Cooking
+  forgottenMemory: Used to host magical baking rituals with Maple and Luna.
+  forgottenRelationships:
+  - {fileID: 11400000, guid: 21f6cba012e9d864e9251947c2486d11, type: 2}
+  - {fileID: 11400000, guid: c0259c57eb919be499e0f8bfcc2c930e, type: 2}
+  likes:
+  - Tea
+  - Fresh flowers
+  - Spices
+  dislikes:
+  - Cold weather
+  - Loud noises
+  hobbies:
+  - Baking
+  - Decorating
+  - Hosting tea parties
+  questIntro: A Forgotten Recipe
+  questSteps:
+  - "Find her grandmother\u2019s lost cookbook."
+  - Collect 3 magical ingredients.
+  - Help her remember the recipe via Memory Weaving.
+  rewardDescription: Magical pastries that boost energy or happiness.

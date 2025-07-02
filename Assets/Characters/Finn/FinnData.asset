@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d120858dbcdc24d8d17afb0d9b6d8f, type: 3}
+  m_Name: FinnData
+  m_EditorClassIdentifier: 
+  npcName: Finn
+  personality: Calm, spiritual, wise
+  skillToTeach: Fishing
+  forgottenMemory: "Trapped in a time loop \u2014 keeps catching the same fish."
+  forgottenRelationships:
+  - {fileID: 11400000, guid: 664abae11d905e8498932f6d23ab1035, type: 2}
+  likes:
+  - Still Water
+  - Mystery
+  - Patience
+  dislikes:
+  - Noise
+  - Storm
+  hobbies:
+  - Fishing
+  - Listening to wind
+  - Whittling driftwood
+  questIntro: The Endless Catch
+  questSteps:
+  - Discover he's caught the same fish 100 times.
+  - Use pendant to enter a time-locked memory.
+  - Free him with a time spell.
+  rewardDescription: Upgraded fishing rod.
